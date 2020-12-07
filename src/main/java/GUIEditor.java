@@ -77,7 +77,7 @@ public class GUIEditor
     Control ctl;
     JMenuBar menu;
     JMenu menuRecent;
-    String strIni = new ResFilename("JKnobMan.ini").GetString();
+    String strIni = new SettingsFilename("JKnobMan.ini").GetString();
     String strIcon;
     String strNone;
     String strLangIni;
