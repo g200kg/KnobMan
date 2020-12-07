@@ -213,6 +213,7 @@ public class GUIEditor
         }
         default: {
             this.strLaf = ppr.ReadString("laf", "");
+            this.strShortcutsIni = ppr.ReadString("shortcuts", "default.ini");
         }
         }
         this.iWheelDir = ppr.ReadInt("wheeldir", 0);
